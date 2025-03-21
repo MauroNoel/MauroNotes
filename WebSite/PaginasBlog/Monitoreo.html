@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Monitoreo IoT para Purificadoras</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+    
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Navegación */
+    .navbar {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-weight: 700;
+      font-size: 20px;
+      text-decoration: none;
+      color: #000;
+    }
+    
+    .nav-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .nav-menu li {
+      margin-left: 25px;
+    }
+    
+    .nav-menu a {
+      text-decoration: none;
+      color: #777;
+      font-size: 14px;
+    }
+    
+    /* Cabecera del post */
+    .post-header {
+      margin: 50px 0 30px;
+      text-align: center;
+    }
+    
+    .post-category {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #777;
+      margin-bottom: 10px;
+    }
+    
+    .post-title {
+      font-size: 42px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    
+    .post-meta {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 40px;
+    }
+    
+    /* Imagen destacada */
+    .featured-image {
+      margin-bottom: 40px;
+      align-items: center;
+    }
+    
+    .featured-image img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    /* Contenido del post */
+    .post-content {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    
+    .post-content h2 {
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    
+    .post-content p {
+      margin-bottom: 25px;
+    }
+    
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 40px 0;
+      margin-top: 60px;
+      border-top: 1px solid #eee;
+      color: #777;
+      font-size: 14px;
+    }
+    
+    /* Botones sociales */
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 15px;
+    }
+    
+    .social-button {
+      padding: 8px 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .social-button span {
+      margin-left: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Navegación -->
+    <nav class="navbar">
+    </nav>
+    
+    <!-- Cabecera del post -->
+    <header class="post-header">
+      <div class="post-category">IoT</div>
+      <h1 class="post-title">Sistema de Monitoreo Inteligente para Purificadoras de Agua</h1>
+      <div class="post-meta">Mauro • 3/20/2025</div>
+    </header>
+    
+    <!-- Imagen destacada -->
+    <div class="featured-image">
+      <img src="imagenesblog\Purificadora.png" alt="Sistema de Monitoreo IoT para Purificadoras">
+    </div>
+    
+    <!-- Contenido del post -->
+    <article class="post-content">
+      <p>La gestión eficiente del agua representa uno de los mayores desafíos de nuestro tiempo. Hoy quiero compartir un proyecto innovador desarrollado en el corazón del Instituto Politécnico Nacional (IPN) que está transformando la manera en que monitoreamos la calidad del agua en plantas purificadoras mediante tecnología IoT.</p>
+      
+      <h2>Revolucionando el monitoreo hídrico con Internet de las Cosas</h2>
+      <p>La Dirección de Incubación de Empresas Tecnológicas del IPN ha implementado un sistema pionero para el monitoreo de su planta purificadora de agua. Este proyecto nace de la necesidad de optimizar los procesos de control de calidad del agua mediante sensores interconectados y análisis de datos en tiempo real.</p>
+      
+      <p>El sistema integra diversos sensores que monitorean parámetros críticos como pH, turbidez, temperatura, conductividad eléctrica y niveles de cloro residual. Estos datos son recopilados constantemente y transmitidos a una plataforma centralizada donde se analizan para garantizar que el agua cumpla con todos los estándares de calidad requeridos.</p>
+      
+      <h2>Arquitectura del sistema: la convergencia de hardware y software</h2>
+      <p>La infraestructura del proyecto se compone de tres capas fundamentales que trabajan en perfecta armonía:</p>
+      
+      <p>La capa de adquisición incluye sensores de última generación que capturan datos precisos sobre la calidad del agua. Estos dispositivos están estratégicamente ubicados en diferentes puntos del proceso de purificación para obtener una visión completa del estado del agua en cada etapa.</p>      
+      <p>La capa de procesamiento utiliza microcontroladores programados para recibir, procesar y transmitir los datos de los sensores. Estos componentes actúan como el cerebro del sistema, interpretando las lecturas y tomando decisiones basadas en parámetros preestablecidos.</p>
+      
+      <h2>Beneficios del monitoreo inteligente del agua</h2>
+      <p>La implementación de este sistema ha generado múltiples ventajas para la planta purificadora del IPN:</p>
+      <blockquote>
+        "La transformación digital de las plantas purificadoras mediante tecnología IoT no solo mejora la eficiencia operativa, sino que garantiza la calidad constante del agua y reduce significativamente los costos de mantenimiento a largo plazo."
+      </blockquote>
+      
+      <p>Entre los beneficios más destacados se encuentran la detección temprana de anomalías, que permite intervenir antes de que se conviertan en problemas mayores; la optimización del consumo energético, ajustando automáticamente el funcionamiento de equipos según las necesidades reales; y la generación de informes detallados que facilitan la toma de decisiones estratégicas.</p>
+      
+      <h2>El futuro del monitoreo hídrico: hacia una gestión más sostenible</h2>
+      <p>Este proyecto representa apenas el comienzo de lo que promete ser una revolución en la gestión del agua. El equipo de desarrollo ya trabaja en mejoras que incluirán algoritmos de inteligencia artificial para predecir fallos en los sistemas de purificación y recomendar acciones preventivas.</p>
+      
+      <p>La escalabilidad del sistema permitirá su implementación en otras plantas purificadoras, no solo dentro del ámbito académico sino también en instalaciones municipales y rurales donde el acceso a agua limpia sigue siendo un desafío.</p>
+      
+      <p>El monitoreo inteligente mediante IoT está demostrando ser una herramienta invaluable para garantizar la sostenibilidad de nuestros recursos hídricos. Proyectos como este nos acercan a un futuro donde la tecnología y la conservación del agua van de la mano, asegurando que este recurso vital esté disponible para las generaciones venideras.</p>
+      
+      <!-- Botones sociales -->
+      <div class="social-buttons">
+        <a href="#" class="social-button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+          <span>Compartir</span>
+        </a>
+        <a href="#" class="social-button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+          </svg>
+          <span>Tweet</span>
+        </a>
+        <a href="#" class="social-button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </article>
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 MauroNotes. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
